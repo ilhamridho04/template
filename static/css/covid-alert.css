@@ -1,0 +1,60 @@
+/* CSS Document */
+.corona-alert {
+	  padding: 20px;
+	  background-color: #031b4e;
+	  color: white;
+	}
+	
+	.corona-closebtn {
+	  margin-left: 15px;
+	  color: white;
+	  font-weight: bold;
+	  float: right;
+	  font-size: 22px;
+	  line-height: 20px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+	
+	.corona-closebtn:hover {
+	  color: black;
+	}
+	
+	.corona-bg-primary{
+	background-color:#007bff!important;
+	padding: 5px;
+	border-radius: 6px;
+	margin-right: 5px;
+	}
+	
+	.corona-bg-success{
+	background-color:#28a745!important;
+	padding: 5px;
+	border-radius: 6px;
+	margin-right: 5px;
+	}
+	
+	.corona-bg-danger{
+	background-color:#dc3545!important;
+	padding: 5px;
+	border-radius: 6px;
+	margin-right: 5px;
+	}
+	
+	.corona-label{display:inline-block;
+	margin-bottom:.5rem;
+	}
+	
+	.corona-blink{display:inline-flex;width:20px;justify-content:center;}
+	.corona-blink01{width:14px;height:14px;background-color:red;border-radius:50%;}
+	.corona-blink02{-webkit-animation:blinking 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;animation:blinking 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;}
+	::-webkit-input-placeholder{color:#888;}
+	:-moz-placeholder{color:#888;}
+	::-moz-placeholder{color:#888;}
+	:-ms-input-placeholder{color:#888;}
+	@media only screen and (max-width: 600px){
+	.header .corona-blink{width:10px;}
+	.header .corona-blink .corona-blink01{width:10px;height:10px;}
+	}
+	@-webkit-keyframes blinking{from{opacity:1;}to{opacity:0;}}
+	@keyframes blinking{from{opacity:1;}to{opacity:0;}}	
